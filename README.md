@@ -46,11 +46,17 @@ pip install -r requirements.txt
 
 ### Option 1: Start Everything Together (Recommended)
 
+**Using Bun (if installed):**
+```bash
+bun run start:all
+```
+
+**Using Shell Script:**
 ```bash
 ./start-all.sh
 ```
 
-This will start both the backend and frontend automatically!
+Both commands will start the backend and frontend automatically!
 
 ### Option 2: Start Services Separately
 
